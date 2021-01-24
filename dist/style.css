@@ -43,7 +43,7 @@ li {
     line-height: 2.5;
     padding: 20px;
     text-align: center;
-    width: 30%;
+    width: 100%;
 }
 
 .main-pokemon-button:focus {
@@ -57,7 +57,7 @@ li {
     line-height: 2.5;
     outline: 0;
     text-align: center;
-    width: 30%;
+    width: 100%;
 }
 
 .main-pokemon-button:hover {
