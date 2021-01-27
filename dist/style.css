@@ -19,12 +19,20 @@ body {
     opacity: 0.85;
 }
 
+.fim {
+    color: yellow;
+}
+
 h1 {
     text-align: left;
     font-family: var(--main-text);
     font-size: 40px;
     font-weight: var(--heavy-font);
     padding: 20px;
+}
+
+.header {
+    color: black;
 }
 
 li {
@@ -35,10 +43,9 @@ li {
 .main-pokemon-button {
     background-color: #17a2b8;
     border-color: #fff;
-    border-radius: 10px;
     color: #fff;
     font-family: var(--handwriting);
-    font-size: 22px;
+    font-size: 40px;
     font-weight: var(--heavy-font);
     line-height: 2.5;
     padding: 20px;
@@ -49,13 +56,12 @@ li {
 .main-pokemon-button:focus {
     background-color: #17a2b8;
     border-color: #fff;
-    border-radius: 10px;
     color: #fff;
     font-family: var(--handwriting);
-    font-size: 22px;
+    font-size: 40px;
     font-weight: var(--heavy-font);
     line-height: 2.5;
-    outline: 0;
+    padding: 20px;
     text-align: center;
     width: 100%;
 }
@@ -63,16 +69,31 @@ li {
 .main-pokemon-button:hover {
     background: rgba(15, 177, 177, 0.63);
     border: 1px solid grey;
-    outline: 0;
+    
+    outline: 0
 }
 
-.pokemon-list {
-    width: 100%;
-}
 
 .modal-body {
     margin: auto;
 }
+
+.navbar {
+    background-color: black;
+}
+
+.nav-link {
+    color: whitesmoke;
+}
+
+.nav-item {
+    font-size: larger;
+}
+.pokemon-list {
+    width: 100%;
+}
+
+
 
 @media all and (min-width: 500px) and (max-width: 992px) {
     .pokemon-list {
